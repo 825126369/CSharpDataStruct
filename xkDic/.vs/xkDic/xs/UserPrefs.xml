@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{C93FD550-B01D-4E02-BB4D-C5D92A703D5E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xkDic/xkDic.cs">
+    <Files>
+      <File FileName="xkDic/Program.cs" Line="9" Column="48" />
+      <File FileName="xkDic/xkDic.cs" Line="39" Column="10" />
+      <File FileName="xkDic/HashHelpers.cs" Line="5" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xkDic" expanded="True">
+            <Node name="xkDic" expanded="True">
+              <Node name="xkDic.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.xkDic PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

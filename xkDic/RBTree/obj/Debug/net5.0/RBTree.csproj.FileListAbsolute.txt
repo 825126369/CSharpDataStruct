@@ -1,0 +1,15 @@
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/RBTree.csproj.AssemblyReference.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/RBTree.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/RBTree.AssemblyInfoInputs.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/RBTree.AssemblyInfo.cs
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/RBTree.csproj.CoreCompileInputs.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/bin/Debug/net5.0/RBTree.deps.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/bin/Debug/net5.0/RBTree.runtimeconfig.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/bin/Debug/net5.0/RBTree.runtimeconfig.dev.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/bin/Debug/net5.0/RBTree.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/bin/Debug/net5.0/ref/RBTree.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/bin/Debug/net5.0/RBTree.pdb
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/RBTree.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/ref/RBTree.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/RBTree.pdb
+/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/Debug/net5.0/RBTree.genruntimeconfig.cache

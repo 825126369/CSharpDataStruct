@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xkDic", "xkDic\xkDic.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{795AAE3A-0DA8-4953-ADD6-DCA9FD14087D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBTree", "RBTree\RBTree.csproj", "{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{795AAE3A-0DA8-4953-ADD6-DCA9FD14087D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{795AAE3A-0DA8-4953-ADD6-DCA9FD14087D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{795AAE3A-0DA8-4953-ADD6-DCA9FD14087D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

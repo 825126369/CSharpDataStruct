@@ -1,20 +1,21 @@
-﻿<Properties StartupConfiguration="{C93FD550-B01D-4E02-BB4D-C5D92A703D5E}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="LinkedList/xkLinkedList.cs">
+﻿<Properties StartupConfiguration="{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}|Default">
+  <MonoDevelop.Ide.ItemProperties.RBTree FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RBTree/RBTree.cs">
     <Files>
       <File FileName="xkDic/Program.cs" Line="24" Column="18" />
-      <File FileName="xkDic/xkDic.cs" Line="40" Column="21" />
+      <File FileName="xkDic/xkDic.cs" Line="155" Column="10" />
       <File FileName="xkDic/HashHelpers.cs" Line="5" Column="26" />
       <File FileName="LinkedList/Program.cs" Line="9" Column="47" />
-      <File FileName="LinkedList/xkLinkedList.cs" Line="8" Column="1" />
+      <File FileName="RBTree/Program.cs" Line="10" Column="10" />
+      <File FileName="RBTree/RBTree.cs" Line="22" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xkDic" expanded="True">
-            <Node name="LinkedList" expanded="True">
-              <Node name="xkLinkedList.cs" selected="True" />
+            <Node name="RBTree" expanded="True">
+              <Node name="RBTree.cs" selected="True" />
             </Node>
-            <Node name="xkDic" expanded="True" />
           </Node>
         </State>
       </Pad>

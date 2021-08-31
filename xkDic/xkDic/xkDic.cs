@@ -60,7 +60,7 @@ namespace xkDic
             Debug.Assert(entries != null, "expected entries to be non-null");
 
             uint hashCode = (uint)key.GetHashCode();
-
+            
             uint collisionCount = 0;
             ref int bucket = ref GetBucket(hashCode);
             int i = bucket - 1; // Value in _buckets is 1-based
@@ -78,14 +78,13 @@ namespace xkDic
                 }
 
                 i = entries[i].next;
-
+                
                 collisionCount++;
                 if (collisionCount > (uint)entries.Length)
                 {
                     // The chain of entries forms a loop; which means a concurrent update has happened.
                     // Break out of the loop and throw, rather than looping forever.
                     throw new Exception();
-
                 }
             }
 
@@ -110,7 +109,7 @@ namespace xkDic
                 entries = _entries;
             }
 
-            ref Entry entry = ref entries![index];
+            ref Entry entry = ref entries[index];
             entry.hashCode = hashCode;
             entry.next = bucket - 1; // Value in _buckets is 1-based
             entry.key = key;
@@ -170,7 +169,7 @@ namespace xkDic
             int i = bucket - 1; // Value in buckets is 1-based
             while (i >= 0)
             {
-                Entry entry = entries[i];
+                ref Entry entry = ref entries[i];
                 if (entry.hashCode == hashCode && entry.key.Equals(key))
                 {
                     if (last < 0)
@@ -211,7 +210,7 @@ namespace xkDic
             int count = _count;
             if (count > 0)
             {
-                Array.Clear(_buckets);
+                Array.Clear(_buckets, 0, _buckets.Length);
 
                 _count = 0;
                 _freeList = -1;

@@ -1,30 +1,24 @@
-﻿<Properties StartupConfiguration="{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}|Default">
+﻿<Properties StartupConfiguration="{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}|Default">
   <MonoDevelop.Ide.ItemProperties.RBTree PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RBTree/RBTree2.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sort/Quicksort.cs">
     <Files>
-      <File FileName="xkDic/Program.cs" Line="24" Column="18" />
-      <File FileName="xkDic/xkDic.cs" Line="155" Column="10" />
-      <File FileName="xkDic/HashHelpers.cs" Line="5" Column="26" />
-      <File FileName="LinkedList/Program.cs" Line="9" Column="47" />
-      <File FileName="RBTree/Program.cs" Line="10" Column="12" />
-      <File FileName="RBTree/RBTree.cs" Line="687" Column="14" />
-      <File FileName="RBTree/RBTree1.cs" Line="318" Column="22" />
-      <File FileName="RBTree/RBTree2.cs" Line="141" Column="10" />
+      <File FileName="Sort/Quicksort.cs" Line="15" Column="10" />
+      <File FileName="Sort/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xkDic" expanded="True">
-            <Node name="RBTree" expanded="True">
-              <Node name="RBTree2.cs" selected="True" />
+            <Node name="Sort" expanded="True">
+              <Node name="QuickSort.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.LinkedList FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Sort PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

@@ -1,0 +1,15 @@
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/bin/Debug/net5.0/LinkedList.deps.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/bin/Debug/net5.0/LinkedList.runtimeconfig.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/bin/Debug/net5.0/LinkedList.runtimeconfig.dev.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/bin/Debug/net5.0/LinkedList.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/bin/Debug/net5.0/ref/LinkedList.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/bin/Debug/net5.0/LinkedList.pdb
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/LinkedList.csproj.AssemblyReference.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/LinkedList.AssemblyInfoInputs.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/LinkedList.AssemblyInfo.cs
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/LinkedList.csproj.CoreCompileInputs.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/LinkedList.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/ref/LinkedList.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/LinkedList.pdb
+/Users/xuke/MyProject/Project/DataStruct/xkDic/LinkedList/obj/Debug/net5.0/LinkedList.genruntimeconfig.cache

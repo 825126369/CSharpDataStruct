@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\Li
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RBTree", "RBTree\RBTree.csproj", "{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "Sort\Sort.csproj", "{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E50B9F6-DDE2-4027-BAC8-65DFAA46B5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

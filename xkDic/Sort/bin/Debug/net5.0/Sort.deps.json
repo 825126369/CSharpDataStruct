@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "RBTree/1.0.0": {
+      "Sort/1.0.0": {
         "runtime": {
-          "RBTree.dll": {}
+          "Sort.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "RBTree/1.0.0": {
+    "Sort/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

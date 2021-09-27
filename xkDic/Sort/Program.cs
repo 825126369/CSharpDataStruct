@@ -21,7 +21,7 @@ namespace Sort
 
             Console.WriteLine();
 
-            HeapSort.Sort(sortList);
+            JiShuSort.Sort(sortList);
 
             for (int i = 0; i < sortList.Count; i++)
             {

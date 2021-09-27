@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}|Default">
   <MonoDevelop.Ide.ItemProperties.RBTree PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sort/HeapSort.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sort/JiShuSort.cs">
     <Files>
-      <File FileName="Sort/Program.cs" Line="24" Column="21" />
-      <File FileName="Sort/HeapSort.cs" Line="28" Column="14" />
+      <File FileName="Sort/JiShuSort.cs" Line="6" Column="27" />
+      <File FileName="Sort/Program.cs" Line="25" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xkDic" expanded="True">
             <Node name="Sort" expanded="True">
-              <Node name="HeapSort.cs" selected="True" />
+              <Node name="JiShuSort.cs" selected="True" />
             </Node>
           </Node>
         </State>

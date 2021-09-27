@@ -8,14 +8,14 @@ namespace Sort
         //计数排序
         public static void Sort(List<int> sortList)
         {
-            BucketSortReCursion2(sortList, 5);
+            BucketSortReCursion2(sortList, 1);
         }
 
-        public static void BucketSortReCursion2(List<int> array, int bucketSize)
+        public static void BucketSortReCursion2(List<int> sortList, int bucketSize)
         {
             //求最值
-            int max = array[0], min = array[0];
-            foreach (var item in array)
+            int max = sortList[0], min = sortList[0];
+            foreach (var item in sortList)
             {
                 max = item > max ? item : max;
                 min = item < min ? item : min;
@@ -31,11 +31,11 @@ namespace Sort
             }
 
             //正填充
-            for (int i = 0; i < array.Count; i++)
+            for (int i = 0; i < sortList.Count; i++)
             {
                 //找到对应的桶
-                int index = (array[i] - min) / bucketSize;
-                buckets[index].Add(array[i]);
+                int index = (sortList[i] - min) / bucketSize;
+                buckets[index].Add(sortList[i]);
             }
 
             //反填充
@@ -52,12 +52,11 @@ namespace Sort
                 }
                 else
                 {
-
                     if (bucketCount == 1)
                     {
-
                         bucketSize--;
                     }
+
                     //递归调用
                     List<int> temp = new List<int>(buckets[i]);
                     BucketSortReCursion2(temp, bucketSize);
@@ -67,11 +66,9 @@ namespace Sort
                     }
                 }
             }
-
-            array.Clear();
-            array.AddRange(arrayResult);
+            
+            sortList.Clear();
+            sortList.AddRange(arrayResult);
         }
-
-
     }
 }

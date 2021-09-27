@@ -2,7 +2,9 @@
   <MonoDevelop.Ide.ItemProperties.RBTree PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Sort/BucketSort.cs">
     <Files>
-      <File FileName="Sort/BucketSort.cs" Line="12" Column="10" />
+      <File FileName="Sort/BucketSort.cs" Line="31" Column="14" />
+      <File FileName="Sort/BubbleSort.cs" Line="1" Column="1" />
+      <File FileName="Sort/InsertionSort.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

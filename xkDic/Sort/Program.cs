@@ -7,7 +7,7 @@ namespace Sort
     {
         static void Main(string[] args)
         {
-            int nArrayCount = 10000;
+            int nArrayCount = 10;
             List<int> sortList = new List<int>();
             Random mRandom = new Random();
             for(int i = 0; i <= nArrayCount; i++)
@@ -21,7 +21,7 @@ namespace Sort
 
             Console.WriteLine();
 
-            QuickSort.Sort(sortList);
+            HeapSort.Sort(sortList);
 
             for (int i = 0; i < sortList.Count; i++)
             {

@@ -8,49 +8,70 @@ namespace Sort
         //计数排序
         public static void Sort(List<int> sortList)
         {
-            CountSort(sortList);
+            BucketSortReCursion2(sortList, 5);
         }
 
-        public static void CountSort(List<int> sortList)
+        public static void BucketSortReCursion2(List<int> array, int bucketSize)
         {
-            int[] b = new int[sortList.Count];
-
-            int max = sortList[0];
-            int min = sortList[0];
-
-            foreach (int item in sortList)
+            //求最值
+            int max = array[0], min = array[0];
+            foreach (var item in array)
             {
-                if (item > max)
+                max = item > max ? item : max;
+                min = item < min ? item : min;
+            }
+
+            //初新组(桶)
+            //初始化桶数量
+            int bucketCount = (max - min) / bucketSize + 1;
+            var buckets = new List<List<int>>(bucketCount);
+            for (int i = 0; i < bucketCount; i++)
+            {
+                buckets.Add(new List<int>());
+            }
+
+            //正填充
+            for (int i = 0; i < array.Count; i++)
+            {
+                //找到对应的桶
+                int index = (array[i] - min) / bucketSize;
+                buckets[index].Add(array[i]);
+            }
+
+            //反填充
+            List<int> arrayResult = new List<int>();
+            for (int i = 0; i < bucketCount; i++)
+            {
+                //当桶大小为1时，将桶的数据全部放入结果集
+                if (bucketSize == 1)
                 {
-                    max = item;
+                    foreach (var item in buckets[i])
+                    {
+                        arrayResult.Add(item);
+                    }
                 }
-                else if (item < min)
+                else
                 {
-                    min = item;
+
+                    if (bucketCount == 1)
+                    {
+
+                        bucketSize--;
+                    }
+                    //递归调用
+                    List<int> temp = new List<int>(buckets[i]);
+                    BucketSortReCursion2(temp, bucketSize);
+                    foreach (var item in temp)
+                    {
+                        arrayResult.Add(item);
+                    }
                 }
             }
 
-            int k = max - min + 1;
-            int[] c = new int[k];
-            for (int i = 0; i < sortList.Count; i++)
-            {
-                int nValue = sortList[i] - min;
-                c[nValue] += 1;
-            }
-
-            for (int i = 1; i < c.Length; i++)
-            {
-                c[i] += c[i - 1];
-            }
-
-            for (int i = sortList.Count - 1; i >= 0; i--)
-            {
-                int nPosIndex = --c[sortList[i] - min];
-                b[nPosIndex] = sortList[i];
-            }
-
-            sortList.Clear();
-            sortList.AddRange(b);
+            array.Clear();
+            array.AddRange(arrayResult);
         }
+
+
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Sort
 {
-    public class JiShuSort
+    public class BucketSort
     {
         //计数排序
         public static void Sort(List<int> sortList)

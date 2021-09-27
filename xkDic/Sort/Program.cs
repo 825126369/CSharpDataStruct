@@ -21,7 +21,7 @@ namespace Sort
 
             Console.WriteLine();
 
-            JiShuSort.Sort(sortList);
+            BucketSort.Sort(sortList);
 
             for (int i = 0; i < sortList.Count; i++)
             {

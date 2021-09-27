@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}|Default">
   <MonoDevelop.Ide.ItemProperties.RBTree PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sort/QuickSort.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sort/Program.cs">
     <Files>
-      <File FileName="Sort/Quicksort.cs" Line="60" Column="1" />
-      <File FileName="Sort/Program.cs" />
+      <File FileName="Sort/Quicksort.cs" Line="15" Column="10" />
+      <File FileName="Sort/Program.cs" Line="10" Column="35" />
       <File FileName="RBTree/RBTree2.cs" />
       <File FileName="RBTree/RBTree.cs" />
     </Files>
@@ -13,7 +13,7 @@
           <Node name="xkDic" expanded="True">
             <Node name="RBTree" expanded="True" />
             <Node name="Sort" expanded="True">
-              <Node name="QuickSort.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

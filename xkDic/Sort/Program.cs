@@ -7,13 +7,16 @@ namespace Sort
     {
         static void Main(string[] args)
         {
-            int nArrayCount = 10;
+            int nArrayCount = 10000;
             List<int> sortList = new List<int>();
             Random mRandom = new Random();
             for(int i = 0; i <= nArrayCount; i++)
             {
                 sortList.Add(mRandom.Next(0, nArrayCount));
-                Console.Write("" + sortList[i] + ",");
+                if (nArrayCount < 100)
+                {
+                    Console.Write("" + sortList[i] + ",");
+                }
             }
 
             Console.WriteLine();

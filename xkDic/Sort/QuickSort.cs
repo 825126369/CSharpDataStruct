@@ -11,7 +11,120 @@ namespace Sort
         //2；递归
         public static void Sort(List<int> sortList)
         {
-            Sort2(sortList, 0, sortList.Count - 1);
+            Sort4(sortList, 0, sortList.Count - 1);
+        }
+
+        public static void Sort4(List<int> sortList, int nBeginIndex, int nEndIndex)
+        {
+            if (nBeginIndex < nEndIndex)
+            {
+                int nCompareIndex = nBeginIndex + (nEndIndex - nBeginIndex) / 2;
+                int nCompareValue = sortList[nCompareIndex];
+
+                int nIndex1 = nBeginIndex;
+                int nIndex2 = nEndIndex;
+
+                while (nIndex1 < nIndex2)
+                {
+                    while (nIndex2 > nCompareIndex && sortList[nIndex2] >= nCompareValue)
+                    {
+                        nIndex2--;
+                    }
+
+                    while (nIndex1 < nCompareIndex && sortList[nIndex1] <= nCompareValue)
+                    {
+                        nIndex1++;
+                    }
+
+                    if (nIndex1 < nCompareIndex && nIndex2 > nCompareIndex && sortList[nIndex1] > nCompareValue && sortList[nIndex2] < nCompareValue)
+                    {
+                        int temp = sortList[nIndex1];
+                        sortList[nIndex1] = sortList[nIndex2];
+                        sortList[nIndex2] = temp;
+                    }
+                    else if (nIndex1 < nCompareIndex && sortList[nIndex1] > nCompareValue)
+                    {
+                        sortList[nCompareIndex] = sortList[nIndex1];
+                        sortList[nIndex1] = nCompareValue;
+                        nCompareIndex = nIndex1;
+                    }
+                    else if (nIndex2 > nCompareIndex && sortList[nIndex2] < nCompareValue)
+                    {
+                        sortList[nCompareIndex] = sortList[nIndex2];
+                        sortList[nIndex2] = nCompareValue;
+                        nCompareIndex = nIndex2;
+                    }
+                }
+
+                for (int i = nBeginIndex; i <= nEndIndex; i++)
+                {
+                    if (i < nCompareIndex)
+                    {
+                        Debug.Assert(sortList[nCompareIndex] >= sortList[i], sortList[nCompareIndex] + " | " + sortList[i]);
+                    }
+                    else if (i > nCompareIndex)
+                    {
+                        Debug.Assert(sortList[nCompareIndex] <= sortList[i], sortList[nCompareIndex] + " | " + sortList[i]);
+                    }
+                }
+
+                Sort2(sortList, nBeginIndex, nCompareIndex - 1);
+                Sort2(sortList, nCompareIndex + 1, nEndIndex);
+            }
+        }
+
+        public static void Sort3(List<int> sortList, int nBeginIndex, int nEndIndex)
+        {
+            if (nBeginIndex < nEndIndex)
+            {
+                int nCompareIndex = nBeginIndex + (nEndIndex - nBeginIndex) / 2;
+                int nCompareValue = sortList[nCompareIndex];
+
+                int nIndex1 = nBeginIndex;
+                int nIndex2 = nEndIndex;
+
+                while (nIndex1 < nIndex2)
+                {
+                    while (nIndex2 > nCompareIndex && sortList[nIndex2] >= nCompareValue)
+                    {
+                        nIndex2--;
+                    }
+
+                    while (nIndex1 < nCompareIndex && sortList[nIndex1] <= nCompareValue)
+                    {
+                        nIndex1++;
+                    }
+
+                    if (nIndex1 < nCompareIndex && sortList[nIndex1] > nCompareValue)
+                    {
+                        sortList[nCompareIndex] = sortList[nIndex1];
+                        sortList[nIndex1] = nCompareValue;
+                        nCompareIndex = nIndex1;
+                    }
+
+                    if (nIndex2 > nCompareIndex && sortList[nIndex2] < nCompareValue)
+                    {
+                        sortList[nCompareIndex] = sortList[nIndex2];
+                        sortList[nIndex2] = nCompareValue;
+                        nCompareIndex = nIndex2;
+                    }
+                }
+
+                for (int i = nBeginIndex; i <= nEndIndex; i++)
+                {
+                    if (i < nCompareIndex)
+                    {
+                        Debug.Assert(sortList[nCompareIndex] >= sortList[i], sortList[nCompareIndex] + " | " + sortList[i]);
+                    }
+                    else if (i > nCompareIndex)
+                    {
+                        Debug.Assert(sortList[nCompareIndex] <= sortList[i], sortList[nCompareIndex] + " | " + sortList[i]);
+                    }
+                }
+
+                Sort2(sortList, nBeginIndex, nCompareIndex - 1);
+                Sort2(sortList, nCompareIndex + 1, nEndIndex);
+            }
         }
 
         public static void Sort2(List<int> sortList, int nBeginIndex, int nEndIndex)
@@ -48,7 +161,7 @@ namespace Sort
 
                     for (int i = nIndex1; i <= nIndex2; i++)
                     {
-                        if (i < nCompareIndex && sortList[i] > sortList[nCompareIndex])
+                        if (i < nCompareIndex && sortList[i] > nCompareValue)
                         {
                             sortList[nCompareIndex] = sortList[i];
                             sortList[i] = nCompareValue;

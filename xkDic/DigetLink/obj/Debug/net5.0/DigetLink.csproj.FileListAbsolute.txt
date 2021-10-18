@@ -1,0 +1,14 @@
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/bin/Debug/net5.0/DigetLink.deps.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/bin/Debug/net5.0/DigetLink.runtimeconfig.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/bin/Debug/net5.0/DigetLink.runtimeconfig.dev.json
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/bin/Debug/net5.0/DigetLink.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/bin/Debug/net5.0/ref/DigetLink.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/bin/Debug/net5.0/DigetLink.pdb
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.AssemblyInfoInputs.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.AssemblyInfo.cs
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.csproj.CoreCompileInputs.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/ref/DigetLink.dll
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.pdb
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.genruntimeconfig.cache

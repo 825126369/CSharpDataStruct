@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/xuke/MyProject/Project/DataStruct/xkDic/Sort/Sort.csproj",
-      "projectName": "Sort",
-      "projectPath": "/Users/xuke/MyProject/Project/DataStruct/xkDic/Sort/Sort.csproj",
+      "projectUniqueName": "/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/DigetLink.csproj",
+      "projectName": "DigetLink",
+      "projectPath": "/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/DigetLink.csproj",
       "packagesPath": "/Users/xuke/.nuget/packages/",
-      "outputPath": "/Users/xuke/MyProject/Project/DataStruct/xkDic/Sort/obj/",
+      "outputPath": "/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/xuke/.config/NuGet/NuGet.Config"

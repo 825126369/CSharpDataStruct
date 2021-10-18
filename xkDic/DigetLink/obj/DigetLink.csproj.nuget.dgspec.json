@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/RBTree.csproj": {}
+    "/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/DigetLink.csproj": {}
   },
   "projects": {
-    "/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/RBTree.csproj": {
+    "/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/DigetLink.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/RBTree.csproj",
-        "projectName": "RBTree",
-        "projectPath": "/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/RBTree.csproj",
+        "projectUniqueName": "/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/DigetLink.csproj",
+        "projectName": "DigetLink",
+        "projectPath": "/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/DigetLink.csproj",
         "packagesPath": "/Users/xuke/.nuget/packages/",
-        "outputPath": "/Users/xuke/MyProject/Project/DataStruct/xkDic/RBTree/obj/",
+        "outputPath": "/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xuke/.config/NuGet/NuGet.Config"

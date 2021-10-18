@@ -1,29 +1,23 @@
-﻿<Properties StartupConfiguration="{3F8AB73A-16BA-4989-8DFD-1C0EF70510F0}|Default">
+﻿<Properties StartupConfiguration="{7AD73305-9643-4030-922A-ACF7ADF8957A}|Default">
   <MonoDevelop.Ide.ItemProperties.RBTree PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sort/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DigetLink/Diget.cs">
     <Files>
-      <File FileName="Sort/BucketSort.cs" Line="54" Column="18" />
-      <File FileName="Sort/BubbleSort.cs" Line="1" Column="1" />
-      <File FileName="Sort/InsertionSort.cs" Line="1" Column="1" />
-      <File FileName="Sort/Program.cs" Line="3" Column="1" />
-      <File FileName="Sort/HeapSort.cs" Line="37" Column="10" />
-      <File FileName="xkDic/xkDic.cs" Line="1" Column="1" />
-      <File FileName="xkDic/HashHelpers.cs" Line="1" Column="1" />
-      <File FileName="RBTree/Program.cs" Line="1" Column="1" />
+      <File FileName="DigetLink/Program.cs" Line="1" Column="1" />
+      <File FileName="DigetLink/Diget.cs" Line="4" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xkDic" expanded="True">
-            <Node name="RBTree" expanded="True" />
-            <Node name="Sort" expanded="True">
-              <Node name="Program.cs" selected="True" />
+            <Node name="DigetLink" expanded="True">
+              <Node name="Diget.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.DigetLink FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Sort PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -73,7 +73,7 @@ namespace DigetLink
             DigetNode nTempInterget2 = Interget2LinkedList.m_Interger;
 
             bool bNextJinWei = false;
-            while (true)
+            while (nTempInterget1 != null || nTempInterget2 != null)
             {
                 uint nDigetValue = nTempInterget1 + nTempInterget2;
                 if(bNextJinWei)
@@ -106,12 +106,8 @@ namespace DigetLink
                 {
                     parentNode.next = tempNode;
                 }
-                parentNode = tempNode;
 
-                if (nTempInterget1 == null && nTempInterget2 == null)
-                {
-                    break;
-                }
+                parentNode = tempNode;
             }
 
             if (bNextJinWei)

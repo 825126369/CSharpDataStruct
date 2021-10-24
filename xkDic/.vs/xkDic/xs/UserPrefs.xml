@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.ItemProperties.RBTree PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="DigetLink/IntegerLinkedList.cs">
     <Files>
-      <File FileName="DigetLink/Program.cs" Line="27" Column="44" />
-      <File FileName="DigetLink/IntegerLinkedList.cs" Line="147" Column="10" />
+      <File FileName="DigetLink/Program.cs" Line="19" Column="42" />
+      <File FileName="DigetLink/IntegerLinkedList.cs" Line="74" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

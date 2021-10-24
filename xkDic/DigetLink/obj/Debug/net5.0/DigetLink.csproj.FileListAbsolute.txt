@@ -12,3 +12,4 @@
 /Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/ref/DigetLink.dll
 /Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.pdb
 /Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.genruntimeconfig.cache
+/Users/xuke/MyProject/Project/DataStruct/xkDic/DigetLink/obj/Debug/net5.0/DigetLink.csproj.AssemblyReference.cache
